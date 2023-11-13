@@ -1,0 +1,124 @@
+header {
+  background-color: #fff;
+  height: 10vh;
+  box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+header img {
+  width: 170px;
+}
+header a {
+  margin-left: 30px;
+  transition: 0.5s;
+  font-weight: 500;
+}
+header a:hover {
+  color: #27ae60;
+}
+header span {
+  width: auto;
+  padding: 0px 6px;
+  background: #27ae60;
+  border-radius: 50px;
+  color: #ffffff;
+  margin-right: 4px;
+  font-weight: 400;
+}
+header h4 {
+  font-weight: 500;
+  margin-right: 20px;
+}
+header .toggle {
+  display: none;
+}
+
+.slide-in-button {
+  /* Your existing button styles */
+  background-color: #4CAF50; /* Green color (you can change this to your preferred color) */
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px; /* Adjust the font size as needed */
+  font-weight: 600; /* Bold font weight for emphasis */
+  border-radius: 15px; /* Optional: Rounded corners for a softer look */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition on hover */
+  /* Add any other button styles you have */
+}
+
+@keyframes rotatingBounce {
+  0% {
+    transform: translateY(-100px) rotate(0deg);
+  }
+  30% {
+    transform: translateY(0) rotate(-10deg);
+  }
+  50% {
+    transform: translateY(-30px) rotate(10deg);
+  }
+  70% {
+    transform: translateY(0) rotate(-5deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+
+/* Apply the animation to the button */
+.slide-in-button.show {
+  animation: rotatingBounce 1.5s ease; /* Animation duration and easing function */
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0;
+  }
+  header img {
+    margin-top: 30px;
+  }
+  header .button {
+    display: none;
+  }
+  header .nav .flex {
+    display: none;
+  }
+  header .toggle {
+    display: block;
+    margin-top: 20px;
+  }
+  header .small {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    background-color: #27ae60;
+    padding: 20px;
+  }
+  header li a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+}
+
+
+.under-construction-bar {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.under-construction-bar p {
+  margin: 0;
+}
+
+.under-construction-bar span {
+  font-weight: bold;
+}
