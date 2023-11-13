@@ -1,6 +1,6 @@
 import React from "react"
 import Back from "../common/Back"
-import Heading from "../common/Heading"
+// import Heading from "../common/Heading"
 import img from "../images/about.jpg"
 import "./about.css"
 
