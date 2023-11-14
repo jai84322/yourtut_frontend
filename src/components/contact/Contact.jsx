@@ -10,6 +10,7 @@ const Contact = () => {
         <Back name='Contact Us' title='Get Helps & Friendly Support' cover={img} />
         <div className='container'>
           <form className='shadow'>
+            <p >you can mail us at <strong>support@yourtut.com</strong> or call us on <strong>+91-8432235748</strong></p>
             <h4>Fillup The Form</h4> <br />
             <div>
               <input type='text' placeholder='Name' />

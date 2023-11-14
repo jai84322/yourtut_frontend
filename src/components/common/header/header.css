@@ -10,6 +10,14 @@ header {
 header img {
   width: 170px;
 }
+.header-logo {
+  display: flex;
+  align-items: center; /* Center vertically */
+}
+
+.header-logo h2 {
+  margin: 0; /* Remove default margin for h2 */
+}
 header a {
   margin-left: 30px;
   transition: 0.5s;
