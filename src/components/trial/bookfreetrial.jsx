@@ -54,7 +54,7 @@ const BookFreeTrial = () => {
           />
           <button type="submit">Book Free Trial</button>
         </form>
-        <p>Already have an account? <a href="/login">Log in here</a></p>
+        {/* <p>Already have an account? <a href="/login">Log in here</a></p> */}
       </main>
     </div>
   );
